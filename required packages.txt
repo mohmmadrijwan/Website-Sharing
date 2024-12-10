@@ -1,0 +1,7 @@
+
+python==3.12.3
+pip install beautifulsoup4==4.12.3
+pip install pillow==11.0.0
+pip install requests==2.32.3
+pip install robotframework==7.1.1
+pip install selenium==4.27.1
