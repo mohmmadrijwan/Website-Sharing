@@ -4,10 +4,10 @@ Library           ../lib/lib.py
 *** Variables ***	
 
 *** Test Cases ***
-Ticket_Creation
-    [Tags]    Ticket
+Website_Sharing
+    [Tags]    Sharing
     [Setup]   
-    Set Test Documentation    Creates Ticket based on criticality of the alerts
+    Set Test Documentation    Robot starts
     WHILE    True    limit=NONE
         ${check}    ${data1}    ${data2}    detect_new_articles
 
@@ -28,7 +28,7 @@ Ticket_Creation
             openhtmlFile
         END
     END
-    Set Test Message    Creates Ticket based on criticality of the alerts is done successfully
+    Set Test Message    Robot ends sucessfully
     
 
 *** Keywords ***
